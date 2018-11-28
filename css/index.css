@@ -1,3 +1,7 @@
+.voice {
+  padding: 30px;
+}
+
 .jp-audio {
   width: 170px;
   background-color: #ffffff;
@@ -7,6 +11,7 @@
 
 .jp-type-single {
   position: relative;
+  cursor: pointer;
 }
 
 .jp-type-single img {
