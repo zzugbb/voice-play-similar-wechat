@@ -1,0 +1,21 @@
+.jp-audio {
+  width: 170px;
+  background-color: #ffffff;
+  border: black solid 1px;
+  border-radius: 5px;
+}
+
+.jp-type-single {
+  position: relative;
+}
+
+.jp-type-single img {
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.jp-duration {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
