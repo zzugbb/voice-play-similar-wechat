@@ -1,22 +1,23 @@
 
 $(function() {
 
-  //录音相关初始化
-  var $this = $("#jquery_jplayer");
+  var $this = $("#jquery-jplayer"); //实例 
+
+  //语音相关初始化
   $this.jPlayer({
     ready: function(event) {
       $this.jPlayer("setMedia", {
-        m4a: "http://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+        m4a: "https://v.xxt.cn/audio/YW01QZL000307.m4a",
       });
     },
     play: function() {
       $this.jPlayer("pauseOthers");
     },
     ended: function() { // The $.jPlayer.event.ended event
-      $("#jp_container .jp-type-single").children("img").attr("src", "./image/icon-player.png");
-      $("#jp_container .jp-type-single").attr("status", 0);
+      $("#jp-container .jp-type-single").attr("status", 0);
+      $("#jp-container .jp-type-single").children("img").attr("src", "./image/icon-player.png");
     },
-    cssSelectorAncestor: "#jp_container",
+    cssSelectorAncestor: "#jp-container",
     swfPath: "../plugins/jPlayer/2.9.2/jplayer",
     supplied: "m4a",
     wmode: "window",
@@ -24,8 +25,13 @@ $(function() {
     autoBlur: false,
     smoothPlayBar: true,
     keyEnabled: true,
-    remainingDuration: true,
-    toggleDuration: true
+    remainingDuration: false,
+    toggleDuration: true,
+    timeFormat: {
+      showMin: false,
+      padSec: false,
+      sepSec: "''"
+    }
   });
 
   //点击播放与关闭语音
