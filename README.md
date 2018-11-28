@@ -25,6 +25,7 @@
 ## 关于 *jplayer*
 
 > jPlayer：基于HTML5/Flash的音频、视频播放器
+
 > jPlayer是一个JavaScript写的完全免费和开源 (MIT) 的jQuery多媒体库插件 (现在也是一个Zepto插件) jPlayer可以让你迅速编写一个跨平台的支持音频和视频播放的网页. jPlayer的丰富API可以让你创建一个个性化多媒体应用，因此也获得越来越多的社区成员的支持和鼓励。
 
 * [jplayer官网](http://www.jplayer.org/)
