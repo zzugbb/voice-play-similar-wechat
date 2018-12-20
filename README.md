@@ -1,5 +1,8 @@
 # voice-play-similar-wechat
 
+![](https://img.shields.io/badge/repo%20size-263kb-green.svg)
+![](https://img.shields.io/badge/license-MIT-blue.svg)
+
 语音播放，高仿微信，`web` && `h5` 通用。
 
 <img src="./image/初始.jpg">
